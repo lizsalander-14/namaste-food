@@ -1,0 +1,16 @@
+Components:
+
+    - Header
+        - Logo
+        - Nav Items
+    - Body
+        - Search
+        - RestuarantContainer
+            - RestuarantCard
+                - Img
+                - Name, rating, cuisines, eta
+    - Footer
+        - Copyright
+        - Links
+        - Address
+        - Contact Info
