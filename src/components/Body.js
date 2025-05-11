@@ -34,7 +34,7 @@ const Body = () => {
             <div className="filter">
                 <div className="search">
                     <input type="text" className="search-box" value={searchText} 
-                        onChange={(e) => setSearchText(e.target.value)}/>
+                        onChange={(e) => setSearchText(e.target.value)} data-testid="searchInput"/>
                     <button onClick={() => {
                         const searchResList = displayList.filter(res => res?.info?.name.toLowerCase().includes(searchText));
                         setFilteredRestaurant(searchResList);

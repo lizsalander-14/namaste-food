@@ -21,7 +21,7 @@ const Cart = () => {
             <ul>
                 {
                     cartItems.map((item) => 
-                        <li key={item?.card?.info?.id} className="item-row">
+                        <li key={item?.card?.info?.id} className="item-row" data-testid="cartItem">
                             {item?.card?.info?.name} - Rs. {item?.card?.info?.price/100 || item?.card?.info?.defaultPrice/100}
                             <button onClick={() => removeItemFromCart(item)}>Remove</button>
                         </li>

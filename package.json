@@ -2,7 +2,8 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "jest"
+    "test": "jest",
+    "watch-test": "jest --watch"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.7.0",

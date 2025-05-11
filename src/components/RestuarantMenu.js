@@ -26,7 +26,7 @@ const RestuarantMenu = () => {
             <h1>{name}</h1>
             <p>{cuisines.join(", ")} - {costForTwoMessage}</p>
             {categories.map((category, index) => 
-                <div key={index}>
+                <div key={index} data-testid="category">
                     <h2>{category?.card?.card?.title}</h2>
                     <ul>
                     {
